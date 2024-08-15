@@ -368,6 +368,7 @@ export interface ApiWhyusWhyus extends Schema.CollectionType {
     singularName: 'whyus';
     pluralName: 'whyuses';
     displayName: 'whyus';
+    description: '';
   };
   options: {
     draftAndPublish: true;

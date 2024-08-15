@@ -4,11 +4,12 @@ export interface DataInfo extends Schema.Component {
   collectionName: 'components_data_infos';
   info: {
     displayName: 'info';
+    description: '';
   };
   attributes: {
-    img: Attribute.Text;
     title: Attribute.String;
     desc: Attribute.Text;
+    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
   };
 }
 

@@ -1,18 +1,26 @@
 {
   "collectionName": "components_data_infos",
   "info": {
-    "displayName": "info"
+    "displayName": "info",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "img": {
-      "type": "text"
-    },
     "title": {
       "type": "string"
     },
     "desc": {
       "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

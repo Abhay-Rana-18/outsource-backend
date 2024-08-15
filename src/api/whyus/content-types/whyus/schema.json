@@ -4,7 +4,8 @@
   "info": {
     "singularName": "whyus",
     "pluralName": "whyuses",
-    "displayName": "whyus"
+    "displayName": "whyus",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
